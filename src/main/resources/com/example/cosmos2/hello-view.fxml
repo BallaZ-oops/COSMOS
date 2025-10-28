@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="442.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/24" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cosmos2.HelloController">
+   <children>
+      <ImageView fx:id="space" fitHeight="448.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/cosmos.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="space2" fitHeight="448.0" fitWidth="700.0" layoutY="-442.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/cosmos.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rocket" fitHeight="74.0" fitWidth="51.0" layoutX="333.0" layoutY="368.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/rocket.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stone" fitHeight="52.0" fitWidth="51.0" layoutX="14.0" layoutY="-84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/stone.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stone1" fitHeight="52.0" fitWidth="51.0" layoutX="227.0" layoutY="-211.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/stone.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stone2" fitHeight="52.0" fitWidth="51.0" layoutX="325.0" layoutY="-84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/stone.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stone3" fitHeight="52.0" fitWidth="51.0" layoutX="341.0" layoutY="-407.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/stone.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stone4" fitHeight="52.0" fitWidth="51.0" layoutX="50.0" layoutY="-423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/stone.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stone5" fitHeight="52.0" fitWidth="51.0" layoutX="635.0" layoutY="-261.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/stone.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stone6" fitHeight="52.0" fitWidth="51.0" layoutX="586.0" layoutY="-84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/stone.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stone7" fitHeight="52.0" fitWidth="51.0" layoutX="524.0" layoutY="-423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/stone.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stone8" fitHeight="52.0" fitWidth="51.0" layoutX="392.0" layoutY="-236.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/stone.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stone9" fitHeight="52.0" fitWidth="51.0" layoutX="130.0" layoutY="-276.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/stone.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="gamePause" focusTraversable="false" layoutX="200.0" layoutY="139.0" text="PAUSE" textFill="#610d0d" visible="false">
+         <font>
+            <Font name="Book Antiqua" size="96.0" />
+         </font>
+      </Label>
+      <Label fx:id="gameLose" focusTraversable="false" layoutX="210.0" layoutY="149.0" text="LOSE" textFill="#610d0d" visible="false">
+         <font>
+            <Font name="Book Antiqua" size="96.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
